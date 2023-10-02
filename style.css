@@ -12,4 +12,46 @@ body {
 
   color: #000;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quote-container {
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.quote-text {
+  font-size: 2.75rem;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 4rem;
+}
+
+.quote-autor {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* media query:tablet or smaller */
+@media screen and (max-width:1000px) {
+  .quote-container {
+    margin: auto 10px;
+  }
+
+  .quote-text {
+    font-size: 2.5rem;
+  }
 }
